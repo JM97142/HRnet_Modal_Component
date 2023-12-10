@@ -4,20 +4,20 @@ import Modal from './components/Modal/Modal';
 function App() {
   const [activeModal, setActiveModal] = useState(false)
 
-  const save = (e) => {
+  const openModal = (e) => {
     e.preventDefault()
     setActiveModal(true)
   }
 
-  const close = () => {
+  const closeModal = () => {
     setActiveModal(false)
   }
 
   return (
     <div className='App'>
-      <button onClick={save}>Click here</button>
+      <button onClick={openModal}>Click here</button>
       {activeModal && (
-        <Modal message={'Employee created !'} close={close} />
+        <Modal message={'Employee sucessfully created !'} close={closeModal} />
       )}
     </div>
   )
