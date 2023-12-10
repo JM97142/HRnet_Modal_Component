@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
       <button onClick={openModal}>Click here</button>
       {activeModal && (
-        <Modal message={'Employee sucessfully created !'} close={closeModal} />
+        <Modal message={'Modal open !'} close={closeModal} />
       )}
     </div>
   )

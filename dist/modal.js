@@ -6,7 +6,7 @@ Object.defineProperty(exports, '__esModule', {
 })
 exports.default = void 0;
 var _react = _interopRequireDefault(require('react'))
-require('../src/components/Modal/modal.css')
+require('./modal.css')
 var Modal = function Modal(_ref) {
     var close = _ref.close,
         message = _ref.message;
