@@ -1,5 +1,5 @@
 {
-  "name": "hrnet_modal",
+  "name": "@jmtaret/react-modal",
   "author": "jmtaret",
   "version": "0.1.0",
   "description": "React component - Modal",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JM97142/HRnet_Modal_Component"
+    "url": "git+https://github.com/JM97142/HRnet_Modal_Component.git"
   },
   "keywords": [
     "react",
@@ -50,5 +50,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JM97142/HRnet_Modal_Component/issues"
+  },
+  "homepage": "https://github.com/JM97142/HRnet_Modal_Component#readme",
+  "devDependencies": {},
+  "license": "ISC"
 }

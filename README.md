@@ -7,11 +7,12 @@
 
 ## Installation
 
+`npm i @jmtaret/react-modal`
+
 ## Exemple
 
 import { useState } from "react";
 import Modal from "@jmtaret/hrnet-modal-component";
-
 const ModalExample = () => {
     const [activeModal, setActiveModal] = useState(false);
     
@@ -33,5 +34,4 @@ const ModalExample = () => {
         </div>
     )
 }
-
 export default ModalExample
