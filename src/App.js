@@ -1,26 +1,26 @@
-import { useState } from "react";
-import { Modal } from "./components";
+import { useState } from 'react';
+import Modal from './components/Modal/Modal';
 
 function App() {
   const [activeModal, setActiveModal] = useState(false)
 
   const save = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     setActiveModal(true)
   }
 
-  const close = (e) => {
+  const close = () => {
     setActiveModal(false)
   }
 
   return (
-    <div className="App">
+    <div className='App'>
       <button onClick={save}>Click here</button>
       {activeModal && (
         <Modal message={'Employee saved !'} onClick={close} />
       )}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

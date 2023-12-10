@@ -1,7 +1,22 @@
 {
-  "name": "hrnet_modal",
+  "name": "@jmtaret/react_modal",
+  "author": "jmtaret",
   "version": "0.1.0",
-  "private": true,
+  "description": "React component - Modal",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JM97142/HRnet_Modal_Component"
+  },
+  "keywords": [
+    "react",
+    "modal"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
