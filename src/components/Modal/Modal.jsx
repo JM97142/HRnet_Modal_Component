@@ -1,10 +1,10 @@
 import './modal.css'
 
-function Modal(props) {
+function Modal({ close, message }) {
     return (
         <div className='modal'>
-            <button className='close-modal' type='button' onClick={props}>X</button>
-            <h3 className='modal-message'>{props.message}</h3>
+            <button className='close-modal' type='button' onClick={close}>X</button>
+            <h3 className='modal-message'>{message}</h3>
         </div>
     )
 }
