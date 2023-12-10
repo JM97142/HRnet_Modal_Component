@@ -1,7 +1,7 @@
 {
-  "name": "react-modal",
+  "name": "@jmtaret/react-modal",
   "author": "jmtaret",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component - Modal",
   "main": "dist/index.js",
   "module": "dist/index.js",
