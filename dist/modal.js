@@ -11,6 +11,8 @@ var Modal = function Modal(_ref) {
     var close = _ref.close,
         message = _ref.message;
     return /*#__PURE__*/_react.default.createElement('div', {
+        className: 'blocker',
+    },/*#__PURE__*/_react.default.createElement('div', {
         className: 'modal',
     }, /*#__PURE__*/_react.default.createElement('button', {
         className: 'close-modal',
@@ -18,7 +20,7 @@ var Modal = function Modal(_ref) {
         onClick: close
     }, 'X'), /*#__PURE__*/_react.default.createElement('h3', {
         className: 'modal-message'
-    }, message))
+    }, message)))
 };
 var _default = Modal
 exports.default = _default

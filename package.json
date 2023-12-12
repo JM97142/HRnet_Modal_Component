@@ -1,7 +1,7 @@
 {
   "name": "@jmtaret/react-modal",
   "author": "jmtaret",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "React component - Modal",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -51,10 +51,8 @@
       "last 1 safari version"
     ]
   },
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/JM97142/HRnet_Modal_Component/issues"
-  },
-  "homepage": "https://github.com/JM97142/HRnet_Modal_Component#readme",
-  "devDependencies": {},
-  "license": "ISC"
+  }
 }
